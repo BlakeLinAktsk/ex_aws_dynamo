@@ -47,7 +47,7 @@ defmodule ExAws.Dynamo.Mixfile do
       {:hackney, ">= 0.0.0", only: [:dev, :test]},
       {:sweet_xml, ">= 0.0.0", only: [:dev, :test]},
       {:poison, ">= 0.0.0", only: [:dev, :test]},
-      ex_aws()
+      {:ex_aws, github: "ex-aws/ex_aws"},
     ]
   end
 
